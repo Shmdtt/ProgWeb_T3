@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header{
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    font-size: 2em;
+}
+
+main{
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #000;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+input, select, textarea{
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+button{
+    width: 200px;
+    align-self: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#listarDividas{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemDivida{
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #aaa;
+}
+
+.mensagemErro{
+    display: none;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.botaoExcluir{
+    width: 110px;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+    background-color: #b12230;
+    color: #fff;
+    
+}

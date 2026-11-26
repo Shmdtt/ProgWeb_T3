@@ -84,6 +84,64 @@ O servidor será executado em:
 
 `http://localhost:3000`
 
-## 📚 Considerações Finais
+🧪 Cenários de Teste Sugeridos
 
-O projeto aplica conceitos de desenvolvimento web, comunicação HTTP, validação de dados e persistência de informações, atendendo aos requisitos propostos no Trabalho M3 da disciplina de Programação II.
+Cadastro de Dívidas:
+
+Preencha todos os campos obrigatórios e clique em Cadastrar Dívida.
+
+Verifique se a dívida aparece corretamente na listagem.
+
+Realize outro cadastro preenchendo também os campos opcionais.
+
+Validação dos Campos:
+
+Tente cadastrar uma dívida com os campos obrigatórios vazios.
+
+Informe um CPF com menos de 11 dígitos e verifique a mensagem de erro.
+
+Informe um e-mail inválido.
+
+Preencha o CEP com menos de 8 dígitos e verifique a validação.
+
+Verifique se o servidor também rejeita informações inválidas.
+
+Visualização de Dívidas:
+
+Clique em Ver mais para visualizar todas as informações de uma dívida.
+
+Clique em Ver menos para recolher os detalhes.
+
+Verifique se os campos opcionais aparecem somente quando preenchidos.
+
+Comprovante em PDF:
+
+Cadastre uma dívida anexando um arquivo PDF.
+
+Acesse os detalhes da dívida e clique em Visualizar comprovante PDF.
+
+Verifique se o documento é aberto corretamente.
+
+Exclusão de Dívidas:
+
+Clique no botão Excluir de uma dívida cadastrada.
+
+Confirme a exclusão.
+
+Verifique se o registro desaparece da listagem e do armazenamento local.
+
+Armazenamento Local:
+
+Realize cadastros com o servidor ligado.
+
+Verifique se os registros estão armazenados na chave dividas do localStorage.
+
+Atualize a página e confira se os registros continuam disponíveis.
+
+Funcionamento Offline:
+
+Com os registros já armazenados localmente, desligue o servidor.
+
+Atualize a página no navegador.
+
+Verifique se as dívidas continuam aparecendo utilizando os dados salvos no localStorage.
